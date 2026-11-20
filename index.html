@@ -24,7 +24,7 @@ body{margin:0}
 a{color:#1F6B4F}a:hover{color:#0F3D2E}
 input,select,textarea{font:inherit}
 input:focus,select:focus,textarea:focus{outline:2px solid #7BC47F;outline-offset:1px}
-@media (max-width: 760px){.kf-nav{display:none !important}.kf-wa-label{display:none}.kf-cta{font-size:13px !important;padding:10px 12px !important}.kf-hdr{gap:12px !important}}
+@media (max-width: 760px){.kf-nav{display:none !important}.kf-wa-label{display:none}.kf-cta{font-size:13px !important;padding:10px 12px !important}.kf-hdr{gap:12px !important}.kf-hdr-wa{width:40px !important;height:40px !important}.kf-cta-x{display:none}.kf-hdr-act{gap:8px !important}}
 </style>
 <style>html{scroll-behavior:smooth;scroll-padding-top:16px}@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}*{box-sizing:border-box}body{overflow-x:clip}#form-ok{display:none}</style>
 </head>
@@ -55,7 +55,10 @@ input:focus,select:focus,textarea:focus{outline:2px solid #7BC47F;outline-offset
         <a href="#parceiros" style="color: #1C2321; text-decoration: none; padding: 10px 0">Parceiros</a>
         <a href="#contato" style="color: #1C2321; text-decoration: none; padding: 10px 0">Contato</a>
       </nav>
-      <a href="#contato" class="kf-cta" style="background: #1F6B4F; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 15px; padding: 13px 20px; border-radius: 4px">Solicitar proposta técnica</a>
+      <div class="kf-hdr-act" style="display: flex; align-items: center; gap: 10px">
+        <a href="https://wa.me/5531998482077?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20KEFA%20Engenharia%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20ou%20tirar%20algumas%20d%C3%BAvidas%20sobre%20um%20projeto." target="_blank" rel="noopener" class="kf-hdr-wa" aria-label="Falar com a KEFA pelo WhatsApp" title="WhatsApp" style="flex: none; width: 44px; height: 44px; border-radius: 50%; background: #25D366; display: inline-flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.2A8.5 8.5 0 1 1 21 11.5Z" fill="none" stroke="#FFFFFF" stroke-width="1.9" stroke-linejoin="round"></path><path d="M9.3 7.9c.2-.4.5-.4.7-.4h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .5.5.9 1.3 1.7 2.2 2.2.2.1.4.1.5 0l.6-.7c.2-.2.4-.2.6-.1l1.8.9c.2.1.4.2.4.4 0 .5-.2 1.2-.7 1.5-.5.4-1.3.6-2.2.3-1.5-.5-3.4-1.9-4.4-3.4-.9-1.3-1.2-2.6-.8-3.6Z" fill="#FFFFFF"></path></svg></a>
+        <a href="#contato" class="kf-cta" style="background: #1F6B4F; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 15px; padding: 13px 20px; border-radius: 4px; white-space: nowrap">Solicitar proposta<span class="kf-cta-x"> técnica</span></a>
+      </div>
     </div>
   </header>
 
@@ -79,7 +82,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #7BC47F;outline-offset
         <h1 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: clamp(38px, 5vw, 64px); font-weight: 600; letter-spacing: -0.025em; line-height: 1.12">Engenharia com fundamento para mineração e infraestrutura.</h1>
         <p style="margin: 0; max-width: 640px; font-size: 19px; line-height: 1.6; color: #D6E8D9">Consultoria e projetos de geotecnia, hidrologia, drenagem, terraplenagem e geometria para mineração, barragens, rodovias, ferrovias, meio ambiente e obras civis. Do estudo de alternativas ao projeto executivo, com uma só equipe integrando as disciplinas.</p>
         <div style="display: flex; flex-wrap: wrap; gap: 14px">
-          <a href="#contato" style="background: #7BC47F; color: #0F3D2E; text-decoration: none; font-weight: 600; font-size: 16px; padding: 16px 24px; border-radius: 4px">Solicitar proposta técnica</a>
+          <a href="#contato" style="background: #7BC47F; color: #0F3D2E; text-decoration: none; font-weight: 600; font-size: 16px; padding: 16px 24px; border-radius: 4px; white-space: nowrap">Solicitar proposta<span class="kf-cta-x"> técnica</span></a>
           <a href="#projetos" style="border: 1px solid #7BC47F; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 16px; padding: 15px 24px; border-radius: 4px">Conhecer projetos</a>
         </div>
       </div>
@@ -102,7 +105,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #7BC47F;outline-offset
   </section>
 
   <section id="solucoes" style="background: #FFFFFF">
-    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(64px, 9vw, 104px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 48px">
+    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(44px, 5.5vw, 68px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 48px">
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
         <div style="display: flex; flex-direction: column; gap: 14px; max-width: 640px">
           <div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.14em; color: #1F6B4F">SOLUÇÕES</div>
@@ -183,7 +186,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #7BC47F;outline-offset
   </section>
 
   <section style="background: #F4F6F3">
-    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(64px, 9vw, 96px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 44px">
+    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(44px, 5.5vw, 68px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 44px">
       <div style="display: flex; flex-direction: column; gap: 14px; max-width: 720px">
         <div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.14em; color: #1F6B4F">CICLO DO PROJETO</div>
         <h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: clamp(30px, 3.6vw, 44px); font-weight: 600; letter-spacing: -0.02em; line-height: 1.22">Do estudo preliminar ao as built</h2>
@@ -232,7 +235,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #7BC47F;outline-offset
   </section>
 
   <section id="segmentos" style="background: #FFFFFF">
-    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(64px, 9vw, 104px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 44px">
+    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(44px, 5.5vw, 68px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 44px">
       <div style="display: flex; flex-direction: column; gap: 14px; max-width: 720px">
         <div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.14em; color: #1F6B4F">SEGMENTOS</div>
         <h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: clamp(30px, 3.6vw, 44px); font-weight: 600; letter-spacing: -0.02em; line-height: 1.22">Onde nossa engenharia atua</h2>
@@ -280,7 +283,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #7BC47F;outline-offset
   </section>
 
   <section id="projetos" style="background: #0F3D2E; color: #FFFFFF">
-    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(64px, 9vw, 104px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 48px">
+    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(44px, 5.5vw, 68px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 48px">
       <div style="display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-end">
         <div style="flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
           <div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.14em; color: #7BC47F">PROJETOS</div>
@@ -376,7 +379,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #7BC47F;outline-offset
   </section>
 
   <section id="parceiros" style="background: #F4F6F3">
-    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(64px, 9vw, 96px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 40px">
+    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(44px, 5.5vw, 68px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 40px">
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px 48px">
         <div style="flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
           <div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.14em; color: #1F6B4F">EMPRESAS PARCEIRAS</div>
@@ -427,7 +430,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #7BC47F;outline-offset
   </section>
 
   <section id="sobre" style="background: #FFFFFF">
-    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(64px, 9vw, 104px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 56px">
+    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(44px, 5.5vw, 68px) clamp(20px, 4vw, 32px); display: flex; flex-direction: column; gap: 44px">
       <div style="display: flex; flex-wrap: wrap; gap: 28px 56px; align-items: flex-start">
         <div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
           <div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.14em; color: #1F6B4F">SOBRE A KEFA</div>
@@ -493,7 +496,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #7BC47F;outline-offset
   </section>
 
   <section id="contato" style="background: #0F3D2E; color: #FFFFFF">
-    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(64px, 9vw, 104px) clamp(20px, 4vw, 32px); display: flex; flex-wrap: wrap; gap: 56px">
+    <div style="max-width: 1200px; margin: 0 auto; padding: clamp(44px, 5.5vw, 68px) clamp(20px, 4vw, 32px); display: flex; flex-wrap: wrap; gap: 44px">
       <div style="flex: 1 1 340px; display: flex; flex-direction: column; gap: 18px">
         <div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.14em; color: #7BC47F">CONTATO</div>
         <h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: clamp(30px, 3.6vw, 44px); font-weight: 600; letter-spacing: -0.02em; line-height: 1.22">Solicite uma proposta técnica</h2>
@@ -585,7 +588,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #7BC47F;outline-offset
   </footer>
 
   <a href="https://wa.me/5531998482077?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20KEFA%20Engenharia%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20ou%20tirar%20algumas%20d%C3%BAvidas%20sobre%20um%20projeto." target="_blank" rel="noopener" aria-label="Conversar com a KEFA pelo WhatsApp" style="position: fixed; right: 20px; bottom: 20px; z-index: 50; display: flex; align-items: center; gap: 10px; background: #25D366; color: #0B2E1F; text-decoration: none; font-weight: 600; font-size: 15px; padding: 14px 16px; border-radius: 999px; box-shadow: 0 6px 18px rgba(0,0,0,0.18)">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0B2E1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.2A8.5 8.5 0 1 1 21 11.5Z"></path></svg>
+    <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.2A8.5 8.5 0 1 1 21 11.5Z" fill="none" stroke="#0B2E1F" stroke-width="1.9" stroke-linejoin="round"></path><path d="M9.3 7.9c.2-.4.5-.4.7-.4h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .5.5.9 1.3 1.7 2.2 2.2.2.1.4.1.5 0l.6-.7c.2-.2.4-.2.6-.1l1.8.9c.2.1.4.2.4.4 0 .5-.2 1.2-.7 1.5-.5.4-1.3.6-2.2.3-1.5-.5-3.4-1.9-4.4-3.4-.9-1.3-1.2-2.6-.8-3.6Z" fill="#0B2E1F"></path></svg>
     <span class="kf-wa-label">WhatsApp</span>
   </a>
 </div>
