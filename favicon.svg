@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <rect width="48" height="48" rx="10" fill="#0F3D2E"/>
+  <g transform="translate(7 7) scale(0.72)">
+    <defs>
+      <mask id="t"><rect x="0" y="0" width="48" height="28" fill="#fff"/></mask>
+      <mask id="b"><rect x="0" y="31.5" width="48" height="16.5" fill="#fff"/></mask>
+    </defs>
+    <g mask="url(#t)" fill="#FFFFFF"><path d="M6 6H15V42H6Z"/><path d="M15 21L31 6H43L19 28Z"/><path d="M19 22L43 42H31L15 29Z"/></g>
+    <g mask="url(#b)" fill="#7BC47F"><path d="M6 6H15V42H6Z"/><path d="M15 21L31 6H43L19 28Z"/><path d="M19 22L43 42H31L15 29Z"/></g>
+  </g>
+</svg>
