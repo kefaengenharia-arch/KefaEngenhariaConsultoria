@@ -11,6 +11,7 @@ Site estático (HTML e CSS puro, sem build). Fica hospedado na Vercel e o códig
 | `404.html` | Página de erro para endereços inexistentes |
 | `favicon.svg` | Ícone da aba do navegador |
 | `apple-touch-icon.png` | Ícone ao salvar o site na tela do celular |
+| `parceiros/` | Logos das empresas parceiras (formato WebP) |
 | `og-image.png` | Imagem de prévia ao compartilhar o link (WhatsApp, LinkedIn) |
 | `robots.txt` e `sitemap.xml` | Orientações para o Google |
 | `vercel.json` | Configuração da Vercel (URLs limpas, segurança, cache) |
@@ -67,5 +68,5 @@ O formulário não precisa de servidor: ao clicar em **Enviar pelo WhatsApp**, e
 
 - Razão social e CNPJ no rodapé e na política de privacidade.
 - Domínio e e-mail comercial.
-- Logos dos clientes (hoje os nomes aparecem em texto) e autorização de uso.
+- Autorização das empresas parceiras para uso dos logos. Para trocar ou incluir um logo, coloque o arquivo em `parceiros/` e repita um bloco `kf-logo` no `index.html`.
 - Revisão jurídica da política de privacidade.
