@@ -46,19 +46,11 @@ git push -u origin main
 
 A partir daí, qualquer alteração enviada ao GitHub é publicada automaticamente.
 
-## Passo 3 | Quando comprar o domínio
+## Passo 3 | Conectar o domínio kefaengenharia.com.br
 
-1. Na Vercel: projeto > **Settings > Domains** > adicione `www.seudominio.com.br` e `seudominio.com.br`.
+1. Na Vercel: projeto > **Settings > Domains** > adicione `www.kefaengenharia.com.br` e `kefaengenharia.com.br`.
 2. A Vercel mostra os registros DNS (A e CNAME). Cadastre esses registros no painel onde o domínio foi comprado (Registro.br, por exemplo). O HTTPS é ativado sozinho.
-3. Substitua os marcadores nos arquivos (busca e troca):
-
-| Procurar | Trocar por | Arquivos |
-|---|---|---|
-| `SEUDOMINIO` | o domínio real | `index.html`, `robots.txt`, `sitemap.xml`, `politica-de-privacidade.html` |
-| `[seudominio]` | o domínio real | `index.html` |
-| `[CNPJ]` | CNPJ da empresa | `index.html` |
-| `[RAZÃO SOCIAL]` e `[00.000.000/0000-00]` | razão social e CNPJ | `politica-de-privacidade.html` |
-| `[data da publicação]` | data de publicação | `politica-de-privacidade.html` |
+3. Os arquivos já estão configurados com o domínio, o e-mail contato@kefaengenharia.com.br, a razão social HE Projetos e o CNPJ 08.625.917/0001-93.
 
 ## Formulário de contato
 
@@ -66,7 +58,6 @@ O formulário não precisa de servidor: ao clicar em **Enviar pelo WhatsApp**, e
 
 ## Pendências antes da divulgação
 
-- Razão social e CNPJ no rodapé e na política de privacidade.
-- Domínio e e-mail comercial.
+- Conectar o domínio na Vercel e ativar o e-mail contato@kefaengenharia.com.br.
 - Autorização das empresas parceiras para uso dos logos. Para trocar ou incluir um logo, coloque o arquivo em `parceiros/` e repita um bloco `kf-logo` no `index.html`.
 - Revisão jurídica da política de privacidade.
